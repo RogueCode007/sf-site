@@ -5,7 +5,7 @@
 
 body {
   font-family: "Nunito Sans", sans-serif;
-  background: url(/images/sisifolashayo_transparent_bg.png);
+  background: url(images/sisifolashayo_transparent_bg.png);
   background-size: cover;
 }
 
@@ -107,7 +107,7 @@ input {
 
 @media screen and (max-width: 415px) {
   body {
-    background: url(/images/sisifolashayo_transparent_bg_small3.png);
+    background: url(images/sisifolashayo_transparent_bg_small3.png);
     background-size: cover;
   }
 
