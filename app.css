@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background: url(/images/sisifolashayo_transparent_bg.png);
+  background-size: cover;
+}
+
+#container {
+  max-width: 70%;
+  margin: 40px auto;
+  text-align: center;
+}
+div img {
+  margin: 0 0 50px 0;
+}
+img {
+  width: 450px;
+  height: 270px;
+}
+
+h1 {
+  color: #d21276;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+  font-weight: 800;
+  font-size: 2.8em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+#input-box {
+  margin: 35px auto 40px auto;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 60%;
+  height: 35px;
+  align-items: center;
+}
+#input-box div {
+  border: 1px solid;
+  background-color: #efefef;
+  border-radius: 5px;
+  border-color: #efefef;
+  height: 100%;
+  width: 260px;
+}
+input {
+  border: none;
+  border-color: #efefef;
+  outline: none;
+  background-color: #efefef;
+  width: 90%;
+  margin: 12px 0 0 5px;
+}
+::placeholder {
+  color: #797979;
+}
+#input-box a {
+  text-decoration: none;
+  color: white;
+  background-color: #d21276;
+  padding: 7px 12px;
+  border-radius: 5px;
+  transition: all;
+  transition-duration: 0.5s;
+}
+#input-box a:hover {
+  padding: 10px 14px;
+}
+#anchor-text {
+  margin-bottom: 35px;
+}
+#anchor-link {
+  text-decoration: none;
+  color: white;
+  background-color: #d21276;
+  padding: 7px 12px;
+  border-radius: 5px;
+  transition: all;
+  transition-duration: 0.5s;
+}
+#anchor-link:hover {
+  padding: 10px 14px;
+}
+#anchor-link i {
+  margin-right: 5px;
+}
+
+#connect-box {
+  margin-top: 200px;
+}
+#connect-box p {
+  font-size: 1.2em;
+}
+#connect-box a {
+  padding: 5px;
+  font-size: 25px;
+  color: #515151;
+}
+
+@media screen and (max-width: 415px) {
+  body {
+    background: url(/images/sisifolashayo_transparent_bg_small3.png);
+    background-size: cover;
+  }
+
+  #container {
+    max-width: 90%;
+  }
+  img {
+    width: 300px;
+    height: 200px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.2em;
+  }
+  #input-box {
+    max-width: 90%;
+  }
+  #input-box div {
+    width: 210px;
+  }
+  #anchor-text {
+    width: 80%;
+    margin: 0 auto 35px auto;
+  }
+  #anchor-link {
+    padding: 10px 15px;
+  }
+  #connect-box p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 375px){
+  #input-box div {
+    width: 180px;
+  }
+}
